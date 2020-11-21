@@ -6,16 +6,23 @@
 
 На тестирование затрачено: 2 часа
 
+В результате тестирования выявлены следующие дефекты:
+* <a href="https://github.com/fromkerch/task2-IDE-/issues/1">Некорректная обработка валидных банковских карт состоящих из 19 цифр</a>
+* <a href="https://github.com/fromkerch/task2-IDE-/issues/2">Банковские карты платежной системы МИР не проходят проверку</a>
+
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* Руководство по установке IntelliJ IDEA (https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
+* <a href="https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md">Руководство по установке IntelliJ IDEA</a>
+
+
 
 
 В качестве тестовых данных использовались данные:
 * Приложение IntelliJ IDEA. Ожидаемый результат: запускается и работает согласно руководству использования.
-* Генератор номеров карт https://cartoved.ru/common/generator-kreditnyh-kart.html
+* <a href="https://www.freeformatter.com/credit-card-number-generator-validator.html">Генератор валидных номеров карт</a>
+
 
 Тестирование производилось в следующем окружении:
 * Windows 10 Pro x64
